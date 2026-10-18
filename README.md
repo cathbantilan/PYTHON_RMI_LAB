@@ -19,3 +19,17 @@ This repository contains a Python implementation of a Java Remote Method Invocat
    ```bash
    python -m Pyro5.nameserver -n 127.0.0.1 -p 9090
    ```
+2. **Start the RMI Server (Terminal 2)**
+   ```bash
+  python server.py
+  Expected Output:
+  Server is booting and products are registered in Name Server...
+   ```
+3. **Run the RMI Client (Terminal 3)**
+   ```bash
+  python client.py
+Expected Output:
+Name: Laptop
+Description: Lenovo laptop
+Price: 800000.0
+   ```
